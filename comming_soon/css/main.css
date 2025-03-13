@@ -33,7 +33,7 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   min-height: 100vh;
 }
 
@@ -132,4 +132,20 @@ input[type="email"]::placeholder {
   .keep-in-touch {
     width: 100%;
   }
+}
+
+.footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+.email-link {
+  color: var(--text-yellow);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: var(--accent-blue);
+  text-decoration: underline;
 }
