@@ -27,10 +27,12 @@
                 Focus on growth, we'll handle the rest!
             </p>
 
-            <div class="email-form">
-                <input type="email" placeholder="Enter your email address...">
-                <button class="keep-in-touch">Keep In Touch <span>→</span></button>
-            </div>
+
+            <form name="contact" class="email-form" action="/pages/success.html" method="POST" data-netlify="true">
+                <input name="email" type="email" placeholder="Enter your email address...">
+                <button type="submit" class="keep-in-touch">Keep In Touch <span>→</span></button>
+            </form>
+
 
             <div>
                 <p class="tagline">Innovate. Integrate. Elevate.</p>
